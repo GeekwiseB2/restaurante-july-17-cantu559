@@ -1,0 +1,176 @@
+@import url(http://fonts.googleapis.com/css?family=Lobster);
+@import url(http://fonts.googleapis.com/css?family=Raleway:700,400,300);
+/* UNIVERSAL */
+* {
+  transition-duration: 0.2s;
+}
+.min-height {
+  min-height: 600px;
+}
+.primary-font {
+  font-family: 'Lobster', serif;
+}
+.secondary-font {
+  font-family: 'Raleway', Sans-Serif;
+}
+.white-text {
+  color: #FFFFFF;
+}
+.orange-text {
+  color: #F8512F;
+}
+.thin-text {
+  font-weight: 300;
+}
+.thick-text {
+  font-weight: 700;
+}
+.orange-bg {
+  background-color: #F8512F;
+}
+/*=== nav === */
+.nav li a:hover {
+  background-color: transparent;
+}
+.navbar-default {
+   background-color: transparent;
+   border-color: transparent;
+}
+.navbar-default .navbar-nav > .active > a,
+.navbar-default .navbar-nav > .active > a:hover,
+.navbar-default .navbar-nav > .active > a:focus {
+  color: #FFFFFF;
+  background-color: rgba(17, 17, 17, .5);
+}
+.navbar-default .navbar-nav>li>a {
+  color: #FCFCFC;
+  text-shadow: 1px 1px 2px #0a0a0a;
+}
+.navbar-default .navbar-nav  li  a:hover,
+.navbar-default .navbar-nav  li  a:focus {
+    color: #F8512F;
+    background-color: rgba(17, 17, 17, .2);
+}
+nav.navbar {
+  position: absolute;
+  top: 100;
+  right: 0;
+  left: 0;
+  z-index: 20;
+}
+.navbar-brand>img {
+  margin-top: -7px;
+}
+/* CUSTOMIZE THE CAROUSEL
+-------------------------------------------------- */
+/* Carousel base class */
+.carousel {
+  /*height: 600px; we do not need this*/
+  margin-bottom: 60px;
+}
+/* Since positioning the image, we need to help out the caption */
+.carousel-caption {
+  z-index: 10;
+  padding-bottom: 140px;
+}
+/* Declare heights because of positioning of img element */
+.carousel-inner .item {
+    width: 100%;
+    height: 600px;
+    background-size: cover;
+    background-position: center;
+}
+.main_img1 {
+    background-image: url(../img/wood-2.jpg);
+}
+.main_img2 {
+    background-image: url(../img/restaurant-2.jpg);
+}
+.main_img3 {
+    background-image: url(../img/farm-2.jpg);
+}
+.main_logo {
+    max-height: 300px;
+}
+.btn-primary.orange-bg {
+  border-color: transparent;
+}
+.btn-primary.orange-bg:hover {
+  background-color: #d34326;
+  border-color: transparent;
+}
+.carousel-caption p {
+  color: #F7F7F7;
+  font-size: 16px;
+}
+
+/*OUR STORY*/
+
+#our_story .row{
+  margin-top: 30px;
+}
+
+#our_story h1{
+  font-size: 6em;
+  margin-top: 0;
+  text-shadow: 1px 1px 2px #515151;
+}
+
+#our_story h3{
+  font-size: 2em;
+  margin-top: 0;
+}
+
+.story-year{
+  font-family: 'Playfair Display',serif;
+  font-size: 200px;
+  position: absolute;
+  z-index: -1;
+  color: rgba(149,147,147,0.2)
+}
+
+
+  /* Review */
+
+  #review{
+    background-image: url("../img/food_review.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+  }
+
+  #review .center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+  }
+
+  .review-container{
+    padding: 10px 15px;
+    background-color: rgba(20, 20, 20, 0.6);
+    border-radius: 4px;
+  }
+
+  .review-container h1{
+    font-size: 6em;
+    text-shadow: 1px 1px 5px #0a0a0a;
+  }
+
+  .review-container p{
+    font-size: 3em;
+    text-shadow: 1px 1px 5px #0a0a0a
+  }
+
+/* div.transbox {
+  margin: 30px;
+  background-color: #000;
+  border: 1px solid black;
+  opacity: 0.6;
+  filter: alpha(opacity=60);
+}
+
+div.transbox p {
+  margin: 5%;
+  font-weight: bold;
+  color: #fff;
+}*/
